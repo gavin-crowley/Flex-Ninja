@@ -19,7 +19,9 @@ body{
     flex-wrap: wrap;
     flex-flow: row;
     justify-content: flex-start;
-    
+    height: 600px;
+    align-items: center;
+
 }
 
 .box {
