@@ -1,2 +1,12 @@
 https://modernizr.com/
 
+flex-grow: 1,2,3...
+flex-shrink
+flex-basis: 200px <=> min-width: 200px;
+better to use flex-basis as when reducing screen size it won't produce 
+a scroll bar
+
+flex grow shrink basis = flex: 1 0 200px;
+flex: 1 => grow of 1, shrink of 1 and basis is 0 by default
+
+
