@@ -64,6 +64,8 @@ a.fb{
 
 
 
+
+
 /* flex styles */
 
 nav ul.social li{
@@ -93,6 +95,20 @@ nav{
 ul.social{
   margin: 0;
 }
+
+  #blocks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  article {
+    flex: 0 1 32%;
+    transition: flex-basis 0.2s linear;
+  }
     
+  article.stack {
+    flex: 0 1 100%;
+  }
 } /* end media 768 */
 
